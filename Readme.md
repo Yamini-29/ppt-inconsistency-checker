@@ -45,3 +45,10 @@ python pipeline_full.py \
 ## Security:
 No hardcoded Api key in code, pass via CLI.
 
+## Limitations
+* OCR depends on image quality ,may miss text in low-res slides.
+
+* LLM hallucinations: Gemini may produce incorrect flags. 
+
+* Large decks: LLM token limits require batching, current approach truncates slide text per slide for prompt size. 
+

@@ -1,0 +1,65 @@
+[
+  {
+    "issue_type": "numeric_mismatch",
+    "description": "Possible numeric mismatch (ctx_sim=0.31, rel_diff=0.25): Slide 2 has '20 m' (~20.0 minutes), Slide 7 has '15 m' (~15.0 minutes).",
+    "slides_involved": [
+      2,
+      7
+    ],
+    "source": "local_rule"
+  },
+  {
+    "issue_type": "numeric_mismatch",
+    "description": "Possible numeric mismatch (ctx_sim=0.25, rel_diff=0.76): Slide 3 has '50' (~50.0 ), Slide 7 has '12' (~12.0 ).",
+    "slides_involved": [
+      3,
+      7
+    ],
+    "source": "local_rule"
+  },
+  {
+    "issue_type": "numeric_mismatch",
+    "description": "Possible numeric mismatch (ctx_sim=0.43, rel_diff=0.31): Slide 3 has '50' (~50.0 ), Slide 7 has '72' (~72.0 ).",
+    "slides_involved": [
+      3,
+      7
+    ],
+    "source": "local_rule"
+  },
+  {
+    "issue_type": "numeric_mismatch",
+    "description": "Possible numeric mismatch (ctx_sim=0.25, rel_diff=0.92): Slide 3 has '50' (~50.0 ), Slide 7 has '4' (~4.0 ).",
+    "slides_involved": [
+      3,
+      7
+    ],
+    "source": "local_rule"
+  },
+  {
+    "issue_type": "Factual Inconsistency",
+    "description": "The estimated financial impact and time saved per slide for 'Noogat' vary significantly between Slide 1 and Slide 2. Slide 1 states an impact of '$2M' and '15 mins Saved per slide created', while Slide 2 claims '$3M saved in lost productivity hours annually' and '20 mins saved per slide created'.",
+    "slides_involved": [
+      1,
+      2
+    ],
+    "source": "gemini"
+  },
+  {
+    "issue_type": "Factual Inconsistency",
+    "description": "Slide 3 states 'Noogat: 50 Hours Saved Per Consultant Monthly'. However, the sum of the detailed time savings provided in Slide 3 (10h for formatting + 12h for content generation + 8h for charts/tables + 6h for layout = 36 hours) and the additional 'Review & QA Efficiency' from Slide 7 (4 hours) only totals 40 hours, creating a 10-hour discrepancy from the stated total.",
+    "slides_involved": [
+      3,
+      7
+    ],
+    "source": "gemini"
+  },
+  {
+    "issue_type": "Logical Inconsistency",
+    "description": "Slide 6 claims 'Gamma's Superior Slide Capabilities' compared to Copilot and details several areas where Gamma outperforms Copilot. However, the time-saving data presented in Slide 4 contradicts this, showing Copilot provides 6 hours of monthly savings (2h + 3h + 1h) while Gamma only provides 3.5 hours (1h + 2h + 0.5h), suggesting Copilot is more efficient in terms of time saved.",
+    "slides_involved": [
+      4,
+      6
+    ],
+    "source": "gemini"
+  }
+]

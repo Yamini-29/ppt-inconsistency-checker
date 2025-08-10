@@ -1,0 +1,6 @@
+python-pptx
+pillow
+pytesseract
+google-generativeai
+regex
+python-dateutil
